@@ -1,0 +1,18 @@
+.leftFind {
+    border: 1px black solid;
+    width: 25vw;
+    height: 6vh;
+}
+
+.rightFind {
+    border: 1px solid black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    height: 6vh;
+
+    .findImg {
+        width: 3vw;
+        height: 100%;
+    }
+}

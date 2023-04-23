@@ -1,0 +1,34 @@
+    
+
+    .block {
+        width: 20vw;
+        display: inline-block;
+        margin-bottom: 10vh;      
+
+        .link {
+
+            .first {
+                width: 20vw;
+
+                img {
+                    width: 100%;  
+                }
+            }
+        }      
+        
+        .second {
+
+            .link {
+                text-decoration: none;
+                color: inherit;
+
+                &:visited {
+                    color: inherit;
+                }  
+            }
+                
+            p {
+                text-align: center;
+            }
+        }
+    }

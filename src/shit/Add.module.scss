@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .addInput {
+        appearance: none;
+        border: 0;
+        border-radius: 15px;
+        background: #4676D7;
+        color: #fff;
+        padding: 12px 20px;
+        font-size: 24px;
+        margin: 10vh 0 10vh 0; 
+
+        &:hover {
+            background: #1d49aa;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #cbd6ee;
+          }
+    }
+}
